@@ -7,15 +7,14 @@ export const Dashboard = ({groups}) => (
         <h2>Dashboard</h2>
         {groups.map(group=> (
             <ConnectedTaskList id={group.id} name={group.name}/>
-        ))}
-            
+        ))}      
     </div>
 )
 
-function mapStatetoProps(state) {
+function mapStateToProps(state) {
     return {
         groups:state.groups
     }
 }
 
-export const ConnectedDashboard = connect(mapStatetoProps)(Dashboard);
+export const ConnectedDashboard = connect(mapStateToProps)(Dashboard);
