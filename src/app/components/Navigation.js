@@ -5,9 +5,12 @@ import React from 'react';
 
 const Navigation = () => (
     <div>
+        <Link to="/">
+            <h1>Home Page</h1>
+        </Link>
         <Link to="/dashboard">
             <h1>
-                My App
+                Dashboard
             </h1>
         </Link>
     </div>
