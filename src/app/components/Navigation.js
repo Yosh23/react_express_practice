@@ -4,7 +4,7 @@ import React from 'react';
 
 
 const Navigation = () => (
-    <div>
+    <div class="navigation">
         <Link to="/">
             <h1>Home Page</h1>
         </Link>

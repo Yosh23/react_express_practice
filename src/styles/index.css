@@ -1,0 +1,13 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.navigation {
+    display: flex;
+    justify-content: start;
+}
+
+.navigation a {
+ margin: 0px 10px;
+}

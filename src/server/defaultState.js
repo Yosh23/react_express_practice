@@ -16,7 +16,7 @@ export const defaultState = {
         owner:"U1"
     },{
         name:"Done",
-        id:"G2",
+        id:"G3",
         owner:"U1"
     }],
     tasks:[{
@@ -40,7 +40,7 @@ export const defaultState = {
     },{
         name:"Update component snapshots",
         id:"T4",
-        group:"G2",
+        group:"G3",
         owner:"U2",
         isComplete: false
     }],
