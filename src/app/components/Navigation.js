@@ -4,7 +4,7 @@ import React from 'react';
 
 
 const Navigation = () => (
-    <div class="navigation">
+    <div className="navigation">
         <Link to="/">
             <h1>Home Page</h1>
         </Link>
@@ -13,6 +13,7 @@ const Navigation = () => (
                 Dashboard
             </h1>
         </Link>
+       
     </div>
 );
 
